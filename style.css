@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(14, 20, 56);
+}
+img{
+position: relative;
+bottom: 2px;
+right: 1px;
+}
+
+.imdb{
+  background-color: gold;
+  color: black;
+  border:solid 2px black;
+}
+.inline{
+  display: inline;
+}
