@@ -6,7 +6,7 @@ form.addEventListener("submit", async function(e){
     e.preventDefault();
     let searchTerm= input.value;
 let config = {params: { q: searchTerm}, }
-let res = await axios.get(`https://cors-anywhere.herokuapp.com/http://api.tvmaze.com/search/shows?q=`,config )
+let res = await axios.get(`https://api.tvmaze.com/search/shows?q=`,config )
     
 makeImages(res.data);
 })
